@@ -86,8 +86,8 @@ public class AC1
 		b[b.length-1] = 10;
 		printArray(a);
 		printArray(b);
-		printArray( "Extremes: " + extremes(a) );
-		printArray( "Reverse array: " + reverse( a ) );
+		//printArray( "Extremes: " + extremes(a) );
+		//printArray( "Reverse array: " + reverse( a ) );
 	}
 	
 }
