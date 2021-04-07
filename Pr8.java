@@ -16,8 +16,15 @@ public class Pr8
 			for (int j = 1; j < 100; j++)
 				for (int k = 1; k < 100; k++)
 					if ( good(i,j) && good(j,k) && good(i,k) )
-					{	IBIO.output( i + " " + j + " " + k );
-						counter++;
+					{
+						if(i == j)
+						{return 0;
+						}
+							
+							
+							
+								IBIO.output( i + " " + j + " " + k );
+						counter++;}
 					}
 	
 		System.out.println("\n\n"+counter);
